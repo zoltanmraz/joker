@@ -14,7 +14,7 @@ from functools import cache
 import pyjokes
 from pyjokes.exc import CategoryNotFoundError, LanguageNotFoundError
 
-from .models import Joke
+from models import Joke
 from flask import current_app
 
 CATEGORIES=["neutral", "chuck", "any"]

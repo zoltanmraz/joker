@@ -9,9 +9,9 @@ jokes api routes
 import pyjokes
 from typing import Literal
 
-from joker.models import Joke
+from models import Joke
 
-from .logic import Joker
+from logic import Joker
 
 from flask import Blueprint, abort, jsonify
 from werkzeug import Response
